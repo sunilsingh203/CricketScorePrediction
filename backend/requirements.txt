@@ -1,0 +1,22 @@
+# Core FastAPI
+fastapi==0.109.1
+uvicorn==0.27.0
+python-multipart==0.0.6  # Required for form-data handling
+
+# Machine Learning
+scikit-learn==1.4.0
+joblib==1.3.2  # For loading your .pkl model
+numpy==1.26.3
+pandas==2.1.4
+
+# MongoDB (if using)
+pymongo==4.6.1
+beanie==1.22.1  # Optional ODM
+
+# Data Validation
+pydantic==2.5.3
+
+# Optional (for enhanced features)
+python-jose==3.3.0  # JWT authentication
+passlib==1.7.4  # Password hashing
+bcrypt==4.1.2  # Secure password hashing
